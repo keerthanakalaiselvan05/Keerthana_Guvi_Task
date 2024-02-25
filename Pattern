@@ -1,0 +1,16 @@
+package com.Guvi;
+
+public class Pattern {
+    //program to print the pattern
+	public static void main(String[] args) {
+		int m=55555,n=1111;
+		System.out.println(m);
+		for(int i=1;i<5;i++)
+		{
+			m=m-n;
+			n=n/10;
+            System.out.println(m);
+		}
+     }
+}
+
