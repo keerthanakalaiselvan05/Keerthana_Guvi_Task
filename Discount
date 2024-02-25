@@ -1,0 +1,28 @@
+package com.Guvi;
+import java.util.Scanner;
+public class Discount {
+
+	public static void main(String[] args) {
+	
+	System.out.println("Enter the purchase amount :");
+    Scanner sc=new Scanner(System.in);
+	int amount=sc.nextInt();
+	int Netamount;
+	if(amount<500)
+	{
+		System.out.println("No discount applied : "+amount);
+	}
+	else if(amount>500 && amount<1000)
+	{
+		Netamount=amount-(amount*10/100);
+		System.out.println("Final payable amount after applying 10% discount is : "+Netamount);
+	}
+	else
+	{
+		Netamount=amount-(amount*20/100);
+		System.out.println("Final payable amount after applying 20% discount is : "+Netamount);
+	}
+	}
+
+}
+
