@@ -1,0 +1,22 @@
+package com.Guvi;
+
+public class Numbers {
+
+	public static void main(String[] args) {
+		//Printing numbers from 10 to 50 using for loop
+		for(int i=10;i<=50;i++)
+		{
+			System.out.print(" " +i);
+		}
+		//Printing numbers from 10 to 50 using while loop
+		/*int i=10;
+		while(i<=50)
+		{
+			System.out.print(" "+i);
+			i++;
+		}*/
+
+	}
+
+}
+
