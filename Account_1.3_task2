@@ -37,10 +37,10 @@ public class Account {
 		System.out.println("Current balance is ...."+balance);
 	}
 	public static void main(String[] args) {
-	Account acc=new Account();
-	acc.deposit();
-	acc.withdrawal();
-	acc.display();
+	     Account acc=new Account();
+	     acc.deposit();
+	     acc.withdrawal();
+	     acc.display();
 	}
 
 }
