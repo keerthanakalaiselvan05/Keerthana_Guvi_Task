@@ -1,0 +1,32 @@
+package com.Guvi.Task2;
+
+class Person1
+{
+String name;
+int age;
+Person1(String s,int a)
+{
+	name=s;
+	age=a;
+	System.out.println("Name is : "+name+ " Age is : "+age);
+}
+}
+class Employee extends Person1
+{
+	int empID=101;
+	int salary=30000;
+	public Employee(){
+		//super keyword to initialize the base class attributes
+		super("Keerthana", 22);
+		System.out.println("Employee ID is : "+empID+ " Salary is : "+salary);
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee emp=new Employee();
+    
+	}
+
+}
